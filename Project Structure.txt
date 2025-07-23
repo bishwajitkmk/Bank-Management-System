@@ -1,0 +1,26 @@
+Key features - 
+
+1) Account Management
+- Create new Account
+- View Account details
+- Update Account details
+- Delete Account
+- Archive Account
+
+
+2) Transaction Management
+- Deposite
+- Withdraw
+- Transfer btw accounts
+- History (monthly and yearly)
+
+3) Authentication
+- Login/Logout
+- Password Reset
+- Password Change
+- Password Recovery
+
+4) Admin features
+- View all accounts
+- Monitor every Transaction
+- Handle and generate reports
