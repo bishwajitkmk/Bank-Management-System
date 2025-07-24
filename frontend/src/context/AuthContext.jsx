@@ -27,7 +27,10 @@ export const AuthProvider = ({ children }) => {
           setUser(userData);
         } catch (error) {
           console.error("Failed to get user profile:", error);
-          logout();
+          // Only logout if it's an authentication error, not a network error
+          if (error.response?.status === 401) {
+            logout();
+          }
         }
       }
       setLoading(false);
